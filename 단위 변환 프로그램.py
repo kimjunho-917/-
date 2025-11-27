@@ -32,3 +32,7 @@ if __name__ == "__main__":
         elif menu == "3":
             kg = float(input("kg 입력: "))
             print(f"{kg} kg = {kg_to_lb(kg):.3f} lb")
+
+        elif menu == "4":
+            lb = float(input("lb 입력: "))
+            print(f"{lb} lb = {lb_to_kg(lb):.3f} kg")
