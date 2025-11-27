@@ -18,3 +18,9 @@ if __name__ == "__main__":
         print("3. kg → lb")
         print("4. lb → kg")
         print("0. 종료")
+
+        menu = input("메뉴 선택: ")
+
+        if menu == "1":
+            cm = float(input("cm 입력: "))
+            print(f"{cm} cm = {cm_to_inch(cm):.3f} inch")
