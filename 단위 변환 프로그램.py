@@ -28,3 +28,7 @@ if __name__ == "__main__":
         elif menu == "2":
             inch = float(input("inch 입력: "))
             print(f"{inch} inch = {inch_to_cm(inch):.3f} cm")
+
+        elif menu == "3":
+            kg = float(input("kg 입력: "))
+            print(f"{kg} kg = {kg_to_lb(kg):.3f} lb")
