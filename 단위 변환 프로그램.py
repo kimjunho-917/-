@@ -24,3 +24,7 @@ if __name__ == "__main__":
         if menu == "1":
             cm = float(input("cm 입력: "))
             print(f"{cm} cm = {cm_to_inch(cm):.3f} inch")
+
+        elif menu == "2":
+            inch = float(input("inch 입력: "))
+            print(f"{inch} inch = {inch_to_cm(inch):.3f} cm")
