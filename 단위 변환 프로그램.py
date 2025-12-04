@@ -53,4 +53,9 @@ if __name__ == "__main__":
             hour = float(input("시간 입력: "))
             print(f"{hour} 시간 = {hour_to_sec(hour):.3f} 초")
 
-        
+        elif menu == "0":
+            print("프로그램 종료!")
+            break
+
+        else:
+            print("잘못된 입력입니다. 다시 선택해주세요.")
