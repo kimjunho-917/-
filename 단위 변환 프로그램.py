@@ -40,3 +40,7 @@ if __name__ == "__main__":
         elif menu == "3":
             minute = float(input("분 입력: "))
             print(f"{minute} 분 = {min_to_hour(minute):.3f} 시간")
+
+        elif menu == "4":
+            hour = float(input("시간 입력: "))
+            print(f"{hour} 시간 = {hour_to_min(hour):.3f} 분")
