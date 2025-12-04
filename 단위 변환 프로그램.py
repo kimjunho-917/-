@@ -48,3 +48,9 @@ if __name__ == "__main__":
         elif menu == "5":
             sec = float(input("초 입력: "))
             print(f"{sec} 초 = {sec_to_hour(sec):.3f} 시간")
+
+        elif menu == "6":
+            hour = float(input("시간 입력: "))
+            print(f"{hour} 시간 = {hour_to_sec(hour):.3f} 초")
+
+        
