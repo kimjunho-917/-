@@ -1,11 +1,18 @@
-def cm_to_inch(cm):
-    return cm / 2.54
+def sec_to_min(sec):
+    return sec / 60
 
-def inch_to_cm(inch):
-    return inch * 2.54
+def min_to_sec(minute):
+    return minute * 60
 
-def kg_to_lb(kg):
-    return kg * 2.20462262
+def min_to_hour(minute):
+    return minute / 60
 
-def lb_to_kg(lb):
-    return lb / 2.20462262
+def hour_to_min(hour):
+    return hour * 60
+
+def sec_to_hour(sec):
+    return sec / 3600
+
+def hour_to_sec(hour):
+    return hour * 3600
+
