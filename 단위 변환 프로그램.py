@@ -16,3 +16,7 @@ if __name__ == "__main__":
         if menu == "1":
             c = float(input("섭씨(°C) 입력: "))
             print(f"{c:.2f} °C = {c_to_f(c):.2f} °F")
+
+        elif menu == "2":
+            f = float(input("화씨(°F) 입력: "))
+            print(f"{f:.2f} °F = {f_to_c(f):.2f} °C")
