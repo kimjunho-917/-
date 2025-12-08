@@ -20,3 +20,7 @@ if __name__ == "__main__":
         elif menu == "2":
             f = float(input("화씨(°F) 입력: "))
             print(f"{f:.2f} °F = {f_to_c(f):.2f} °C")
+
+        elif menu == "0":
+            print("프로그램 종료!")
+            break
