@@ -3,3 +3,16 @@ def c_to_f(c):
 
 def f_to_c(f):
     return (f - 32) * 5/9
+
+if __name__ == "__main__":
+    print("=== 온도 단위 변환 프로그램 ===")
+    while True:
+        print("\n1. °C → °F")
+        print("2. °F → °C")
+        print("0. 종료")
+
+        menu = input("메뉴 선택: ")
+
+        if menu == "1":
+            c = float(input("섭씨(°C) 입력: "))
+            print(f"{c:.2f} °C = {c_to_f(c):.2f} °F")
