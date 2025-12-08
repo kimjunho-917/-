@@ -24,3 +24,8 @@ if __name__ == "__main__":
         elif menu == "0":
             print("프로그램 종료!")
             break
+        
+        else:
+            print("잘못된 입력입니다. 다시 선택하세요.")
+
+    
